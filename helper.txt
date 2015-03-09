@@ -1,0 +1,43 @@
+<div class="message-box left-img">
+  <div class="picture">
+    <img src="http://dribbble.s3.amazonaws.com/users/2493/avatars/original/joey_head_new.png?1346157876" title="user name"/>
+  </div>
+  <div class="message">
+    <span>Bobby Giangeruso</span>
+    <p>Hey Mike, how are you doing?</p>
+  </div>
+</div>
+
+<div class="message-box right-img">
+  <div class="picture">
+    <img src="http://dribbble.s3.amazonaws.com/users/212696/avatars/small/monogram_pixel_perfect.png?1359994784" title="user name"/>
+  </div>
+  <div class="message">
+    <span>Mike Moloney</span>
+    <p>Pretty good, Eating nutella, nommommom</p>
+  </div>
+</div>
+
+<div class="connect-message">
+    <p>a user disconnect</p>
+</div>
+
+var chars = [
+    {name: "岡部 倫太郎", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/0.png"},
+    {name: "牧瀬 紅莉栖", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/1.png"},
+    {name: "椎名 まゆり", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/2.png"},
+    {name: "橋田 至", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/3.png"},
+    {name: "阿万音 鈴羽", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/4.png"},
+    {name: "フェイリス・ニャンニャン", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/5.png"},
+    {name: "漆原 るか", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/6.png"},
+    {name: "桐生 萌郁", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/7.png"}
+];
+
+
+var roles = [
+    {name: "セットン", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/セットン.jpg"},
+    {name: "巴裘拉", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/巴裘拉.jpg"},
+    {name: "甘樂", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/甘樂.jpg"},
+    {name: "田中太郎", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/田中太郎.jpg"},
+    {name: "罪歌", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/罪歌.png"},
+]
