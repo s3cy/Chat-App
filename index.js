@@ -30,16 +30,26 @@ var fateZero = [
     {name: "caster", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/caster.jpg"},
     {name: "lancer", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/lancer.jpg"},
     {name: "rider", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/rider.jpg"},
-    {name: "saber", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/saber.jpg"},
+    {name: "saber", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/saber.jpg"}
+];
+
+var anohana = [
+    {name: "久川 鉄道", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/久川%20鉄道.png"},
+    {name: "安城 鳴子", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/安城%20鳴子.png"},
+    {name: "宿海 仁太", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/宿海%20仁太.png"},
+    {name: "本間 芽衣子", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/本間%20芽衣子.png"},
+    {name: "松雪 集", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/松雪%20集.png"},
+    {name: "鶴見 知利子", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/鶴見%20知利子.png"}
 ];
 
 var data = [
     {name: "Dollars", roles: dollars, room: 'room0'},
     {name: "Ei Psy Congloo", roles: steinsGate, room: 'room1'},
-    {name: "Fate Zero", roles: fateZero, room: 'room2'}
+    {name: "Fate Zero", roles: fateZero, room: 'room2'},
+    {name: "超平和バスターズ", roles: anohana, room: 'room3'}
 ];
 
-var n = Math.floor(Math.random() * data.length);
+var n = 3;
 
 app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res) {
