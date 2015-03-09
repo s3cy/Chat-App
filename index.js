@@ -3,23 +3,23 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
 var steinsGate = [
-    {name: "岡部 倫太郎", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/0.png"},
-    {name: "牧瀬 紅莉栖", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/1.png"},
-    {name: "椎名 まゆり", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/2.png"},
-    {name: "橋田 至", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/3.png"},
-    {name: "阿万音 鈴羽", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/4.png"},
-    {name: "フェイリス・ニャンニャン", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/5.png"},
-    {name: "漆原 るか", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/6.png"},
-    {name: "桐生 萌郁", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/7.png"}
+    {name: "岡部 倫太郎", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/0.png"},
+    {name: "牧瀬 紅莉栖", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/1.png"},
+    {name: "椎名 まゆり", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/2.png"},
+    {name: "橋田 至", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/3.png"},
+    {name: "阿万音 鈴羽", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/4.png"},
+    {name: "フェイリス・ニャンニャン", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/5.png"},
+    {name: "漆原 るか", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/6.png"},
+    {name: "桐生 萌郁", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/7.png"}
 ];
 
 
 var dollars = [
-    {name: "セットン", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/セットン.jpg"},
-    {name: "巴裘拉", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/巴裘拉.jpg"},
-    {name: "甘樂", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/甘樂.jpg"},
-    {name: "田中太郎", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/田中太郎.jpg"},
-    {name: "罪歌", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/罪歌.png"}
+    {name: "セットン", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/セットン.jpg"},
+    {name: "巴裘拉", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/巴裘拉.jpg"},
+    {name: "甘樂", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/甘樂.jpg"},
+    {name: "田中太郎", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/田中太郎.jpg"},
+    {name: "罪歌", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/罪歌.png"}
 ];
 
 var data = [
