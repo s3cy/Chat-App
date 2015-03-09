@@ -22,12 +22,23 @@ var dollars = [
     {name: "罪歌", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/罪歌.png"}
 ];
 
-var data = [
-    {name: "Dollars", roles: dollars, room: 'room0'},
-    {name: "Ei Psy Congloo", roles: steinsGate, room: 'room1'}
+var fateZero = [
+    {name: "archer", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/archer.jpg"},
+    {name: "assassin", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/assassin.jpg"},
+    {name: "berserker", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/berserker.jpg"},
+    {name: "caster", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/caster.jpg"},
+    {name: "lancer", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/lancer.jpg"},
+    {name: "rider", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/rider.jpg"},
+    {name: "saber", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/saber.jpg"},
 ];
 
-var n = 0;
+var data = [
+    {name: "Dollars", roles: dollars, room: 'room0'},
+    {name: "Ei Psy Congloo", roles: steinsGate, room: 'room1'},
+    {name: "Fate Zero", roles: fateZero, room: 'room2'}
+];
+
+var n = Math.floor(Math.random() * data.length);
 
 app.get('/', function(req, res) {
     res.sendFile(__dirname + '/index.html');
