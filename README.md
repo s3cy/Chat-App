@@ -24,4 +24,8 @@ no new users can go inside until everyone in this room quits.
 
 ![alt tag](https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/demo.png)
 
+- Fate Zero 7 members
+
+![alt tag](https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/demo.png)
+
 > avatars are in my `Pictures` repository
