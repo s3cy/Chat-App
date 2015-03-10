@@ -4,17 +4,12 @@ $(document).ready(function() {
     $(window).scroll(function() {
 
     });
-    socket.on('sorry message', function() {
-        var box = $('<div class="connect-message">');
-        box.append($('<p>').text("sorry you are late."));
-        $('.header').after(box);
-        box.slideDown();
-    });
     socket.on('identity', function(data) {
         myname = data.nick;
         myURL = data.imgURL;
         $('.header h2').text(data.title);
     });
+    
     $('.send').click(function() {
         var input = $('input').val();
         $('input').val('');
@@ -33,6 +28,12 @@ $(document).ready(function() {
             socket.emit('chat message', input);
         }
     });
+    $('input').keypress(function(key) {
+        if (key.which == 13) {
+            $('.send').click();
+        }
+    })
+
     socket.on('chat message', function(data) {
         var box = $('<div class="message-box left-img">');
         var image = $('<img title="user name"/>').attr('src', data.imgURL);
@@ -52,5 +53,11 @@ $(document).ready(function() {
         $('.header').after(box);
         box.slideDown();
         box.delay(4000).slideUp();
+    });
+    socket.on('sorry message', function() {
+        var box = $('<div class="connect-message">');
+        box.append($('<p>').text("sorry you are late."));
+        $('.header').after(box);
+        box.slideDown();
     });
 });

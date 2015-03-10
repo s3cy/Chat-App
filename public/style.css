@@ -129,6 +129,7 @@ a {
     padding: 10px 15px;
     background: #6294c2;
     border-radius: 2px;
+    margin-left: 16px;
     float: right;
 }
 .connect-message {
