@@ -3,7 +3,7 @@ simple web-base chat app using socket.io.
 [Check the demo here](http://www.orchidmarvelous.net/)
 
 ### Features
-1. User is automatically asigned to a role (nick name and avatar) from couple animes. see list below
+1. User is automatically asigned to a role (nick name and avatar) from couple of animes. [see list below](#roles)
 2. A role is unique and cannot be used by others as long as the user is still in.
 3. Roles in the same anime chat in the same room.
 4. Once all roles in a anime are asigned, the chat room is full and 
