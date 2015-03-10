@@ -1,6 +1,6 @@
 # Chat-App
 simple web-base chat app using socket.io.
-[Check the demo here](http://www.orchidmarvelous.net/)
+[Check the demo here](http://chat.orchidmarvelous.net/)
 
 ### Features
 1. User is automatically asigned to a role (nick name and avatar) from couple of animes. [see list below](#roles)
