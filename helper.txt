@@ -22,22 +22,48 @@
     <p>a user disconnect</p>
 </div>
 
-var chars = [
-    {name: "岡部 倫太郎", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/0.png"},
-    {name: "牧瀬 紅莉栖", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/1.png"},
-    {name: "椎名 まゆり", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/2.png"},
-    {name: "橋田 至", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/3.png"},
-    {name: "阿万音 鈴羽", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/4.png"},
-    {name: "フェイリス・ニャンニャン", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/5.png"},
-    {name: "漆原 るか", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/6.png"},
-    {name: "桐生 萌郁", imgURL: "https://raw.githubusercontent.com/s3cy/Steins-Gate-Avatar/master/7.png"}
-];
+var steinsGate = {
+    "0": {name: "岡部 倫太郎", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/0.png"},
+    "1": {name: "牧瀬 紅莉栖", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/1.png"},
+    "2": {name: "椎名 まゆり", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/2.png"},
+    "3": {name: "橋田 至", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/3.png"},
+    "4": {name: "阿万音 鈴羽", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/4.png"},
+    "5": {name: "フェイリス・ニャンニャン", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/5.png"},
+    "6": {name: "漆原 るか", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/6.png"},
+    "7": {name: "桐生 萌郁", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/7.png"}
+};
 
 
-var roles = [
-    {name: "セットン", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/セットン.jpg"},
-    {name: "巴裘拉", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/巴裘拉.jpg"},
-    {name: "甘樂", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/甘樂.jpg"},
-    {name: "田中太郎", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/田中太郎.jpg"},
-    {name: "罪歌", imgURL: "https://raw.githubusercontent.com/s3cy/Dollars-Avatar/master/罪歌.png"},
-]
+var dollars = {
+    "0": {name: "セットン", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/セットン.jpg"},
+    "1": {name: "巴裘拉", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/巴裘拉.jpg"},
+    "2": {name: "甘樂", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/甘樂.jpg"},
+    "3": {name: "田中太郎", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/田中太郎.jpg"},
+    "4": {name: "罪歌", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/罪歌.png"}
+};
+
+var fateZero = {
+    "0": {name: "archer", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/archer.jpg"},
+    "1": {name: "assassin", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/assassin.jpg"},
+    "2": {name: "berserker", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/berserker.jpg"},
+    "3": {name: "caster", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/caster.jpg"},
+    "4": {name: "lancer", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/lancer.jpg"},
+    "5": {name: "rider", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/rider.jpg"},
+    "6": {name: "saber", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/saber.jpg"}
+};
+
+var anohana = {
+    "0": {name: "久川 鉄道", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/久川%20鉄道.png"},
+    "1": {name: "安城 鳴子", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/安城%20鳴子.png"},
+    "2": {name: "宿海 仁太", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/宿海%20仁太.png"},
+    "3": {name: "本間 芽衣子", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/本間%20芽衣子.png"},
+    "4": {name: "松雪 集", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/松雪%20集.png"},
+    "5": {name: "鶴見 知利子", imgURL: "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/鶴見%20知利子.png"}
+};
+
+var data = {
+    "0": {name: "Dollars", roles: dollars, room: 'room0'},
+    "1": {name: "El Psy Congloo", roles: steinsGate, room: 'room1'},
+    "2": {name: "Fate Zero", roles: fateZero, room: 'room2'},
+    "3": {name: "超平和バスターズ", roles: anohana, room: 'room3'}
+};

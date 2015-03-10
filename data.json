@@ -1,0 +1,96 @@
+[{
+    "name": "Dollars",
+    "roles": [{
+        "name": "セットン",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/セットン.jpg"
+    }, {
+        "name": "巴裘拉",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/巴裘拉.jpg"
+    }, {
+        "name": "甘樂",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/甘樂.jpg"
+    }, {
+        "name": "田中太郎",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/田中太郎.jpg"
+    }, {
+        "name": "罪歌",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/罪歌.png"
+    }],
+    "room": "room0",
+    "length": "5"
+}, {
+    "name": "El Psy Congloo",
+    "roles": [{
+        "name": "岡部 倫太郎",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/0.png"
+    }, {
+        "name": "牧瀬 紅莉栖",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/1.png"
+    }, {
+        "name": "椎名 まゆり",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/2.png"
+    }, {
+        "name": "橋田 至",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/3.png"
+    }, {
+        "name": "阿万音 鈴羽",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/4.png"
+    }, {
+        "name": "フェイリス・ニャンニャン",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/5.png"
+    }, {
+        "name": "漆原 るか",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/6.png"
+    }, {
+        "name": "桐生 萌郁",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/7.png"
+    }],
+    "room": "room1"
+}, {
+    "name": "Fate Zero",
+    "roles": [{
+        "name": "archer",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/archer.jpg"
+    }, {
+        "name": "assassin",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/assassin.jpg"
+    }, {
+        "name": "berserker",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/berserker.jpg"
+    }, {
+        "name": "caster",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/caster.jpg"
+    }, {
+        "name": "lancer",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/lancer.jpg"
+    }, {
+        "name": "rider",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/rider.jpg"
+    }, {
+        "name": "saber",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/saber.jpg"
+    }],
+    "room": "room2"
+}, {
+    "name": "超平和バスターズ",
+    "roles": [{
+        "name": "久川 鉄道",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/久川%20鉄道.png"
+    }, {
+        "name": "安城 鳴子",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/安城%20鳴子.png"
+    }, {
+        "name": "宿海 仁太",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/宿海%20仁太.png"
+    }, {
+        "name": "本間 芽衣子",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/本間%20芽衣子.png"
+    }, {
+        "name": "松雪 集",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/松雪%20集.png"
+    }, {
+        "name": "鶴見 知利子",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/鶴見%20知利子.png"
+    }],
+    "room": "room3"
+}]
