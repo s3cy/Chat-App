@@ -30,8 +30,8 @@ $(document).ready(function() {
             message.append($('<p>').text(input));
             $('.chat-box').prepend(box);
             box.slideDown();
+            socket.emit('chat message', input);
         }
-        socket.emit('chat message', input);
     });
     socket.on('chat message', function(data) {
         var box = $('<div class="message-box left-img">');
