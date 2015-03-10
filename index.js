@@ -47,7 +47,7 @@ io.on('connection', function(socket) {
                 }
                 if (j == 0) {
                     n = i;
-                    console.log("room== " + data[n].name " ==room");
+                    console.log("room== " + data[n].name + " ==room");
                     break;
                 }
             }
@@ -62,5 +62,5 @@ io.on('connection', function(socket) {
 
 http.listen(3000, function() {
     console.log('listening on *:3000');
-    console.log("room== " + data[n].name " ==room");
+    console.log("room== " + data[n].name + " ==room");
 });
