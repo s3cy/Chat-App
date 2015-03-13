@@ -33,4 +33,8 @@ no new users can go inside until everyone in this room quits.
 
 ![alt tag](https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/demo.png)
 
+- K-ON 5 members
+
+- Free! 5 members
+
 > avatars are in my `Pictures` repository
