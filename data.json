@@ -16,8 +16,7 @@
         "name": "罪歌",
         "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/罪歌.png"
     }],
-    "room": "room0",
-    "length": "5"
+    "room": "room0"
 }, {
     "name": "El Psy Congloo",
     "roles": [{
@@ -93,4 +92,42 @@
         "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/鶴見%20知利子.png"
     }],
     "room": "room3"
+}, {
+    "name": "K-ON",
+    "roles": [{
+        "name": "中野 梓",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/K-ON-Avatar/中野%20梓.jpg"
+    }, {
+        "name": "平沢 唯",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/K-ON-Avatar/平沢%20唯.jpg"
+    }, {
+        "name": "琴吹 紬",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/K-ON-Avatar/琴吹%20紬.jpg"
+    }, {
+        "name": "井中 律",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/K-ON-Avatar/田井中%20律.jpg"
+    }, {
+        "name": "秋山 澪",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/K-ON-Avatar/秋山%20澪.jpg"
+    }],
+    "room": "room4"
+}, {
+    "name": "Free!",
+    "roles": [{
+        "name": "七瀬 遥",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Free!-Avatar/七瀬%20遥.png"
+    }, {
+        "name": "叶月 渚",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Free!-Avatar/叶月%20渚.png"
+    }, {
+        "name": "琴松冈 凛",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Free!-Avatar/松冈%20凛.png"
+    }, {
+        "name": "橘 真琴",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Free!-Avatar/橘%20真琴.png"
+    }, {
+        "name": "竜ヶ崎 怜",
+        "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Free!-Avatar/竜ヶ崎%20怜.png"
+    }],
+    "room": "room5"
 }]
