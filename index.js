@@ -14,7 +14,7 @@ app.get('/', function(req, res) {
 
 io.on('connection', function(socket) {
     function connectToRoom(ith) {
-        var room = data[ith].room;
+        var room = data[ith].name;
         var roles = data[ith].roles;
         socket.join(room);
         var x = Math.floor(Math.random() * roles.length);

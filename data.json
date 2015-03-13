@@ -15,8 +15,7 @@
     }, {
         "name": "罪歌",
         "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Dollars-Avatar/罪歌.png"
-    }],
-    "room": "room0"
+    }]
 }, {
     "name": "El Psy Congloo",
     "roles": [{
@@ -43,8 +42,7 @@
     }, {
         "name": "桐生 萌郁",
         "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Steins-Gate-Avatar/7.png"
-    }],
-    "room": "room1"
+    }]
 }, {
     "name": "Fate Zero",
     "roles": [{
@@ -68,8 +66,7 @@
     }, {
         "name": "saber",
         "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Fate-Zero-Avatar/saber.jpg"
-    }],
-    "room": "room2"
+    }]
 }, {
     "name": "超平和バスターズ",
     "roles": [{
@@ -90,8 +87,7 @@
     }, {
         "name": "鶴見 知利子",
         "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Anohana-Avatar/鶴見%20知利子.png"
-    }],
-    "room": "room3"
+    }]
 }, {
     "name": "K-ON",
     "roles": [{
@@ -109,8 +105,7 @@
     }, {
         "name": "秋山 澪",
         "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/K-ON-Avatar/秋山%20澪.jpg"
-    }],
-    "room": "room4"
+    }]
 }, {
     "name": "Free!",
     "roles": [{
@@ -128,6 +123,5 @@
     }, {
         "name": "竜ヶ崎 怜",
         "imgURL": "https://raw.githubusercontent.com/s3cy/Pictures/master/Free!-Avatar/竜ヶ崎%20怜.png"
-    }],
-    "room": "room5"
+    }]
 }]
