@@ -23,12 +23,12 @@ io.on('connection', function(socket) {
         roles.splice(x, 1);
         console.log(socket.nickname + " was created!");
         socket.emit('identity', {nick:socket.nickname, imgURL:socket.imgURL, title: data[ith].name});
-        io.in(room).emit('connect message', socket.nickname + " さが入室しました");
+        io.in(room).emit('connect message', socket.nickname + " さんが入室しました");
         socket.on('chat message', function(data) {
             socket.in(room).broadcast.emit('chat message', {msg:data, nick:socket.nickname, imgURL: socket.imgURL});
         });
         socket.on('disconnect', function() {
-            io.in(room).emit('connect message', socket.nickname + " さが退室しました");
+            io.in(room).emit('connect message', socket.nickname + " さんが退室しました");
             console.log(socket.nickname + " leaves the room " + data[ith].name);
             roles.push({name: socket.nickname, imgURL: socket.imgURL});
         });
